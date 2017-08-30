@@ -1,0 +1,35 @@
+*{
+  -webkit-box-sizing: border-box;
+  font-family: 'Exo', sans-serif;
+}
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+body {
+  border-color: black;
+  border-style: double;
+  border-width: 10px;
+  margin: 100px;
+}
+.title {
+  color: black;
+  background-color: lemonchiffon;
+  margin: 0;
+}
+.app {
+  display: flex;
+  height: 50px;
+}
+
+.Telephone {
+  width:50%;
+  height: 50px;
+  background-color: lemonchiffon;
+}
+.description {
+  background-color: lemonchiffon;
+  width: 50%;
+}
