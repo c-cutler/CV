@@ -1,29 +1,37 @@
+
+
+
 *{
   -webkit-box-sizing: border-box;
   font-family: 'Exo', sans-serif;
 }
-.title {
+
+h1 {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
+  margin: 0;
 }
-
+head {
+  /*display: flex;*/
+}
 body {
   border-color: black;
   border-style: double;
   border-width: 10px;
   margin: 100px;
 }
+
+@media only screen and (max-width: 500px) {
+  body { margin: 10px; }
+}
+
 .container{
   background-color: lemonchiffon;
 }
-.title {
-  color: black;
-  background-color: lemonchiffon;
-  margin: 0;
-}
+
 .contact {
-  display: flex;
+  /*display: flex;*/
   /*height: 50px;*/
 }
 
