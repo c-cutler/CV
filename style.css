@@ -14,14 +14,17 @@ body {
   border-width: 10px;
   margin: 100px;
 }
+.container{
+  background-color: lemonchiffon;
+}
 .title {
   color: black;
   background-color: lemonchiffon;
   margin: 0;
 }
-.app {
+.contact {
   display: flex;
-  height: 50px;
+  /*height: 50px;*/
 }
 
 .Telephone {
