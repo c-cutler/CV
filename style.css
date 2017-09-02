@@ -10,20 +10,19 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin: 0;
+  margin-top: 20px;
 }
-head {
-  /*display: flex;*/
-}
+
 body {
   border-color: black;
   border-style: double;
   border-width: 10px;
-  margin: 100px;
+  /*margin: 100px;*/ #want to make margin lemon
+  text-align: left;
 }
 
 @media only screen and (max-width: 500px) {
-  body { margin: 10px; }
+  body { margin: 10px;  }
 }
 
 .container{
@@ -31,16 +30,24 @@ body {
 }
 
 .contact {
+  margin-top: 20px;
+  margin-left: 20px;
   /*display: flex;*/
   /*height: 50px;*/
 }
 
-.Telephone {
+
+Telephone {
   width:50%;
   height: 50px;
   background-color: lemonchiffon;
 }
-.description {
+
+
+
+
+.email {
   background-color: lemonchiffon;
   width: 50%;
+
 }
