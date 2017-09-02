@@ -1,61 +1,47 @@
 
-
-
 *{
   -webkit-box-sizing: border-box;
-  font-family: 'Exo', sans-serif;
-}
+  font-family: 'Exo', sans-serif;}
 
 h1 {
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 2px;
-}
+  letter-spacing: 2px;}
 
 body {
   border-color: black;
   border-style: double;
   border-width: 10px;
-  /*margin: 100px;*/ #want to make margin lemon
-}
+  /*margin: 100px;*/ #want to make margin lemon}
 
 @media only screen and (max-width: 500px) {
-  body { margin: 10px;  }
-}
+  body { margin: 10px;}}
 
 .container {
-  background-color: lemonchiffon;
-}
+  background-color: lemonchiffon;}
 
 .contact {
-  margin-top: 20px;
-
-  /*display: flex;*/
-  /*height: 50px;*/
-}
-
+  margin-top: 20px;}
 
 .telephone {
   text-align: left;
-  margin-left: 20px;
-}
+  margin-left: 20px;}
 
 
 .email {
   text-align: right;
   margin-right: 20px;
   position: relative;
-  top: -20px;
-}
+  top: -20px;}
+
 @media only screen and (max-width: 500px) {
   .telephone {
   text-align: center;
-  margin: 0;
-}}
+  margin: 0;}}
+
 @media only screen and (max-width: 500px) {
   .email {
     text-align: center;
     margin: 0;
     position: relative;
-    top: 20px;}
-}
+    top: 20px;}}
