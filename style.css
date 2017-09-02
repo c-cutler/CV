@@ -24,24 +24,18 @@ h1 {
 
   @media only screen and (max-width: 500px) {
     h1 {
-    font-size: 130%;
-    }}
-
-
-@media only screen and (max-width: 500px) {
-  .telephone {
-  text-align: center;
-  position: relative;
-  bottom: 75px;
-  margin: 0;
-  }}
-
-@media only screen and (max-width: 500px) {
-  .email {
+    font-size: 130%;}
+    .telephone {
     text-align: center;
     position: relative;
-    top: -200px;
-    margin: 0;}}
+    bottom: 75px;
+    margin: 0;}
+    .email {
+      text-align: center;
+      position: relative;
+      top: -200px;
+      margin: 0;}}
+
 
 .container {
     background-color: lemonchiffon;
@@ -52,3 +46,13 @@ h1 {
   @media only screen and (max-width: 500px) {
     .container {
       line-height: 150px}}
+
+  .address {
+    text-align: center;
+  }
+  h2 {
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 120%;
+    margin-left: 15px;}
