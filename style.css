@@ -29,14 +29,14 @@ h1 {
 
 @media only screen and (max-width: 500px) {
     h1 {font-size: 130%;}
-
+  
     .telephone {
       text-align: center;
       position: relative;
       bottom: 75px;
       margin: 0;
     }
-
+  
     .email {
       text-align: center;
       position: relative;
