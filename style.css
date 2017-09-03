@@ -27,20 +27,23 @@ h1 {
   top: -20px;
 }
 
-  @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
     h1 {font-size: 130%;}
+
     .telephone {
       text-align: center;
       position: relative;
       bottom: 75px;
       margin: 0;
-}
+    }
+
     .email {
       text-align: center;
       position: relative;
       top: -200px;
       margin: 0;
-}}
+    }
+}
 
 
 .container {
@@ -50,16 +53,17 @@ h1 {
     border-width: 10px;
 }
 
-  @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
     .container {
       line-height: 150px
-}}
+    }
+}
 
-  .address {
+.address {
     text-align: center;
 }
 
-  h2 {
+h2 {
     text-align: left;
     text-transform: uppercase;
     letter-spacing: 1.5px;
