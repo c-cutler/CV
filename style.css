@@ -1,40 +1,46 @@
 
-*{
+* {
   -webkit-box-sizing: border-box;
-  font-family: 'Exo', sans-serif;}
+  font-family: 'Exo', sans-serif;
+}
 
 h1 {
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 2px;}
+  letter-spacing: 2px;
+}
 
 @media only screen and (max-width: 500px) {
-  body { margin: 10px;}}
+  body { margin: 10px;}
+}
 
 .telephone {
   text-align: left;
   margin-left: 15px;
-  margin-top: 20px}
+  margin-top: 20px
+}
 
 .email {
   text-align: right;
   margin-right: 15px;
   position: relative;
-  top: -20px;}
+  top: -20px;
+}
 
   @media only screen and (max-width: 500px) {
-    h1 {
-    font-size: 130%;}
+    h1 {font-size: 130%;}
     .telephone {
-    text-align: center;
-    position: relative;
-    bottom: 75px;
-    margin: 0;}
+      text-align: center;
+      position: relative;
+      bottom: 75px;
+      margin: 0;
+}
     .email {
       text-align: center;
       position: relative;
       top: -200px;
-      margin: 0;}}
+      margin: 0;
+}}
 
 
 .container {
@@ -42,17 +48,21 @@ h1 {
     border-color: black;
     border-style: double;
     border-width: 10px;
-  }
+}
+
   @media only screen and (max-width: 500px) {
     .container {
-      line-height: 150px}}
+      line-height: 150px
+}}
 
   .address {
     text-align: center;
-  }
+}
+
   h2 {
     text-align: left;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-size: 120%;
-    margin-left: 15px;}
+    margin-left: 15px;
+}
