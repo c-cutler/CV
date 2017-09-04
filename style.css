@@ -10,41 +10,39 @@ h1 {
   letter-spacing: 2px;
 }
 
+.flex-container {
+  display:flex;
+}
+
+.contact {
+  display:flex;
+}
 @media only screen and (max-width: 500px) {
   body { margin: 10px;}
 }
 
+
 .telephone {
-  text-align: left;
-  margin-left: 15px;
-  margin-top: 20px
+  text-align: center;
+  /*margin-top: 20px*/
+  position: absolute;
+  left: 70px;
 }
 
 .email {
-  text-align: right;
-  margin-right: 15px;
+  /*position: relative;
+  top: -20px;*/
   position: relative;
-  top: -20px;
+  top: 20px;
+  left: 50px;
+  text-align: center;
 }
 
-@media only screen and (max-width: 500px) {
-    h1 {font-size: 130%;}
-
-    .telephone {
-      text-align: center;
-      position: relative;
-      bottom: 75px;
-      margin: 0;
-    }
-
-    .email {
-      text-align: center;
-      position: relative;
-      top: -200px;
-      margin: 0;
-    }
+.address {
+    text-align: center;
+    position: relative;
+    left: 25%;
 }
-
 
 .container {
     background-color: lemonchiffon;
@@ -59,9 +57,7 @@ h1 {
     }
 }
 
-.address {
-    text-align: center;
-}
+
 
 h2 {
     text-align: left;
@@ -77,9 +73,7 @@ h3 {
   letter-spacing: 1.5px;
   font-size: 120%;
   margin-right: 80px;
+  position: relative;
+  right: 20px;
+  bottom: 45px;
 }
-
-
-/*.flex-container {
-  display:flex;
-}*/
