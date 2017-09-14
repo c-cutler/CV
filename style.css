@@ -19,8 +19,10 @@
     border-style: double;
     border-width: 10px;
     margin: 10px;
-    height: 950px;
+    position: absolute;
+    min-height: 900px;
 }
+
 
 .contact {
   column-span: all;
@@ -62,7 +64,6 @@
   text-transform: uppercase;
   letter-spacing: 1.5px;
   font-size: 120%;
-  grid-area: A;
 }
 
 #h_interests {
@@ -70,4 +71,21 @@
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-size: 120%;
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    min-height: 1400px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .container {
+    min-height: 1500px;
+  }
+}
+@media only screen and (max-width: 100px) {
+  .container {
+    min-height: 2000px;
+  }
 }
