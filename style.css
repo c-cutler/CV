@@ -1,37 +1,23 @@
 
-* {
-  -webkit-box-sizing: border-box;
-  font-family: 'Exo', sans-serif;
-}
-
-#h_charlottecutler {
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  column-span: all;
-}
-
 body {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1000px;
+  font-family: 'Exo', sans-serif;
+  margin: 0;
+}
+
+h1, h2 {
+  text-transform: uppercase;
 }
 
 .container {
-    background-color: lemonchiffon;
-    border-color: black;
-    border-style: double;
-    border-width: 10px;
-    margin: 10px;
-    position: absolute;
-    min-height: 900px;
-}
-
-
-.contact {
-  column-span: all;
+  max-width: 900px;
+  margin: 0 auto;
   text-align: center;
+  background-color: lemonchiffon;
+  border-color: black;
+  border-style: double;
+  border-width: 10px;
 }
+
 
 .navbar {
   list-style-type: none;
@@ -39,6 +25,15 @@ body {
   padding: 0;
   width: 100px;
   background-color: #f1f1f1;
+}
+
+.content {
+  display: flex;
+}
+
+.column1, .column2 {
+  text-align: left;
+  padding: 20px;
 }
 
 li a {
@@ -63,55 +58,4 @@ li a:hover {
   margin-left: 20px;
   margin-right: 20px;
   display: flex;
-}
-
-
-#h_professionalexperience {
-    text-align: left;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    font-size: 120%;
-}
-
-#h_volunteering {
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  font-size: 120%;
-}
-
-
-#h_education {
-  text-align: left;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  font-size: 120%;
-}
-
-#h_interests {
-    text-align: left;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    font-size: 120%;
-}
-
-@media only screen and (max-width: 500px) {
-  .container {
-    min-height: 1400px;
-  }
-}
-
-@media only screen and (max-width: 300px) {
-  .container {
-    min-height: 1500px;
-  }
-}
-@media only screen and (max-width: 100px) {
-  .container {
-    min-height: 2000px;
-  }
-}
-
-.survey {
-  position: relative;
-  top: 100px;
 }
