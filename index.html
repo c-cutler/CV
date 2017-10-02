@@ -3,6 +3,9 @@
 <head>
   <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset"UTF-8>
+  <meta http-equiv="Content-type" content="text/html;
+  charset=UTF-8">
 </head>
 
 <div id="demo">sdfkdsfm</div>
@@ -19,9 +22,9 @@
     <div class="contact">
       <p id="contactdeets">
         Telephone: +44 7503772058
-        <br/>Email: c.cutler@warwick.ac.uk
-        <br/>Address: 60 Pilkington Avenue,
-        <br/>Sutton Coldfield, B72 1LG
+        <br>Email: c.cutler@warwick.ac.uk
+        <br>Address: 60 Pilkington Avenue,
+        <br>Sutton Coldfield, B72 1LG
       </p>
     </div>
 
@@ -34,23 +37,20 @@
         <h3 id="h_aupair">2016: Au pair (Berga, Spain)</h3>
           <p id="aupair">
             Teaching English grammar to the children ages 11 and 12.
-            <br/>Organising activities with the parents and visiting places of cultural
+            <br/>
+            Organising activities with the parents and visiting places of cultural
                interest.
           </p>
-        <h3>2014-2015: Shop Assistant (Wilko)</h3>
-          <p>
+        <h3 id="h_wilko">2014-2015: Shop Assistant (Wilko)</h3>
+          <p id="wilko">
             Greeting customers.
-            <br/>Working on the till.
-            <br/>Tidying the shop floor and returning stock to the shelves.
+            <br>
+            Working on the till.
+            <br>
+            Tidying the shop floor and returning stock to the shelves.
           </p>
 
-        <h3>2013: Kiosk Operator (Aston Villa FC)</h3>
-        <h3>2010-2014: Newspaper Deliverer</h3>
-
-        <p>
-          Delivery of newspapers Monday to Friday mornings.
-        </p>
-
+        <h3 id="h_kiosk">2013: Kiosk Operator (Aston Villa FC)</h3>
     </div>
 
 
@@ -67,8 +67,8 @@
     <h3>University of Warwick</h3>
       <p>
         2015-Current: Qualified Coach and Judge (Trampoline Club)
-        <br/>French student mentor 2016
-        <br/>School of Modern Languages and Cultures Ambassador 2016-17
+        <br>French student mentor 2016
+        <br>School of Modern Languages and Cultures Ambassador 2016-17
       </p>
     </div>
   </div>
@@ -84,8 +84,10 @@
       <h4>Modern Languages BA</h4>
       <p>
         French, Spanish, and German
-        <br/>First Year (63%)
-        <br/>Expected (Second Class)
+        <br>
+        First Year (63%)
+        <br>
+        Expected (Second Class)
       </p>
 
       <h4>2013-2015: Sutton Coldfield Grammar School</h4>
@@ -104,7 +106,8 @@
           </ul>
 
           <b>GCSE:</b>
-          <br/>12 Subjects (A*-B), including English and Mathematics.
+          <br>
+          12 Subjects (A*-B), including English and Mathematics.
       </p>
 
 
@@ -112,8 +115,10 @@
         <div class="interests">
           <p>
             Trampoline Gymnast (SUTL 5 Competitor)
-            <br/>Taekwondo (Blue Stripe Belt)
-            <br/>Piano (Grade 5)
+            <br>
+            Taekwondo (Blue Stripe Belt)
+            <br>
+            Piano (Grade 5)
           </p>
         </div>
       </div>
@@ -144,15 +149,30 @@
 
 <script>document.querySelector("#french").onclick = function(){
   document.querySelector("#contactdeets").innerHTML = "T&eacute;l&eacute;phone: +44 7503772058 \
-      </br>Email: c.cutler@warwick.ac.uk \
-      </br>Adresse: 60 Pilkington Avenue, \
-      </br>Sutton Coldfield, B72 1LG";
+      <br> \
+      Email: c.cutler@warwick.ac.uk \
+      <br> \
+      Adresse: 60 Pilkington Avenue, \
+      <br> \
+      Sutton Coldfield, B72 1LG";
 
-  document.querySelector("#h_professionalexperience").innerHTML = "Exp&eacute;rience professionnelle";
+  document.querySelector("#h_professionalexperience").innerHTML = "Expérience professionnelle";
   document.querySelector("#h_aupair").innerHTML = "2016: Au pair (Berga, Espagne)";
-  document.querySelector("#aupair").innerHTML = "2016: Au pair (Berga, Espagne)";
+  document.querySelector("#aupair").innerHTML = "Enseigner la grammaire anglaise aux enfants &acirc;g&eacute;s de 11 et 12 ans.\
+  <br> \
+  Organiser les activit&eacute;s quotidiennes avec les parents et visiter des lieux d'int&eacute;r&ecirc;t culturel.";
 
-  };</script>
+  document.querySelector("#h_wilko").innerHTML = "Caissière, (Wilko)";
+  document.querySelector("#wilko").innerHTML = "Accueillir les clients. \
+  <br> \
+  Travailler à la caisse. \
+  <br> \
+  Ranger le magasin et retourner les produits aux rayonnages.";
+
+  document.querySelector("#h_kiosk").innerHTML = "2013: Serveuse et caissière (Aston Villa FC)";
+  document.querySelector("#h_volunteering").innerHTML = "2011-2014: Employée bénévole dans un magasin de charité (St Giles Hospice)";
+};
+  </script>
 
 
 
