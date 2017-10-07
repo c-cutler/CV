@@ -6,6 +6,9 @@
   <meta charset"UTF-8>
   <meta http-equiv="Content-type" content="text/html;
   charset=UTF-8">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+
 </head>
 
 <div id="demo">sdfkdsfm</div>
@@ -58,7 +61,7 @@
   <h2 id="h_volunteering">Volunteering</h2>
 
     <div class="volunteering">
-    <h3>2010-2014: Shop Assistant (St Giles Hospice)</h3>
+    <h3 id="h_st_giles">2010-2014: Shop Assistant (St Giles Hospice)</h3>
       <p>
         Sorting out donations and maintaining the general appearance of the store.
         <br/>Working on the till.
@@ -80,8 +83,8 @@
     <h2 id="h_education">Education</h2>
 
     <div class="education">
-      <h3>2015-Present: University of Warwick</h3>
-      <h4>Modern Languages BA</h4>
+      <h3 id="h1_university">2015-Present: University of Warwick</h3>
+      <h4 id="h2_university">Modern Languages BA</h4>
       <p>
         French, Spanish, and German
         <br>
@@ -148,7 +151,7 @@
 <!--End mc_embed_signup-->
 
 <script>document.querySelector("#french").onclick = function(){
-  document.querySelector("#contactdeets").innerHTML = "T&eacute;l&eacute;phone: +44 7503772058 \
+  document.querySelector("#contactdeets").innerHTML = "Téléphone: +44 7503772058 \
       <br> \
       Email: c.cutler@warwick.ac.uk \
       <br> \
@@ -158,9 +161,9 @@
 
   document.querySelector("#h_professionalexperience").innerHTML = "Expérience professionnelle";
   document.querySelector("#h_aupair").innerHTML = "2016: Au pair (Berga, Espagne)";
-  document.querySelector("#aupair").innerHTML = "Enseigner la grammaire anglaise aux enfants &acirc;g&eacute;s de 11 et 12 ans.\
+  document.querySelector("#aupair").innerHTML = "Enseigner la grammaire anglaise aux enfants &acirc;gés de 11 et 12 ans.\
   <br> \
-  Organiser les activit&eacute;s quotidiennes avec les parents et visiter des lieux d'int&eacute;r&ecirc;t culturel.";
+  Organiser les activités quotidiennes avec les parents et visiter des lieux d'intér&ecirc;t culturel.";
 
   document.querySelector("#h_wilko").innerHTML = "Caissière, (Wilko)";
   document.querySelector("#wilko").innerHTML = "Accueillir les clients. \
@@ -170,7 +173,14 @@
   Ranger le magasin et retourner les produits aux rayonnages.";
 
   document.querySelector("#h_kiosk").innerHTML = "2013: Serveuse et caissière (Aston Villa FC)";
-  document.querySelector("#h_volunteering").innerHTML = "2011-2014: Employée bénévole dans un magasin de charité (St Giles Hospice)";
+  document.querySelector("#h_volunteering").remove();
+  document.querySelector("#h_st_giles").innerHTML = "2011-2014: Employée bénévole dans un magasin de charité (St Giles Hospice)";
+
+
+  document.querySelector("#h1_university").innerHTML = "2015-Présent: Licence langues étrangères";
+  document.querySelector("#h2_university").innerHTML = "(Modern Languages BA, University of Warwick)";
+
+  document.querySelector("#h_interests").innerHTML = "Centres d'intérêt";
 };
   </script>
 

@@ -19,6 +19,20 @@ h1, h2, h3 {
   border-width: 10px;
 }
 
+#french {
+  background: linear-gradient(
+  to right,
+  #FF0000 0,
+  #FF0000 10px,
+  #FFFFFF 10px,
+  #FFFFFF 20px,
+  #0000FF 20px,
+  #0000FF 30px
+  );
+  border-width: 0;
+  height: 20px;
+  width: 30px;
+}
 
 .navbar {
   list-style-type: none;
