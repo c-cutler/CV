@@ -7,11 +7,8 @@
   <meta http-equiv="Content-type" content="text/html;
   charset=UTF-8">
   <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-
-
 </head>
 
-<div id="demo">sdfkdsfm</div>
 <body>
   <ul  class="navbar">
     <li><a class="active" href= "index.html">Home</a></li>
@@ -62,13 +59,13 @@
 
     <div class="volunteering">
     <h3 id="h_st_giles">2010-2014: Shop Assistant (St Giles Hospice)</h3>
-      <p>
+      <p id="st_giles">
         Sorting out donations and maintaining the general appearance of the store.
         <br/>Working on the till.
       </p>
 
     <h3>University of Warwick</h3>
-      <p>
+      <p id="experience_university">
         2015-Current: Qualified Coach and Judge (Trampoline Club)
         <br>French student mentor 2016
         <br>School of Modern Languages and Cultures Ambassador 2016-17
@@ -85,7 +82,7 @@
     <div class="education">
       <h3 id="h1_university">2015-Present: University of Warwick</h3>
       <h4 id="h2_university">Modern Languages BA</h4>
-      <p>
+      <p id="education_university">
         French, Spanish, and German
         <br>
         First Year (63%)
@@ -94,22 +91,22 @@
       </p>
 
       <h4>2013-2015: Sutton Coldfield Grammar School</h4>
-      <h4>A-level:</h4>
 
-      <p>
+
+      <p id="grades">
+          <h4>A-level:</h4>
           <ul>
             <li>French (A)</li>
             <li>Spanish (A)</li>
             <li>Psychology (B)</li>
           </ul>
 
-          <b>AS-level:</b>
+          <h4>AS-level:</h4>
           <ul>
             <li>Mathematics (B)</li>
           </ul>
 
-          <b>GCSE:</b>
-          <br>
+          <h4>GCSE:</h4>
           12 Subjects (A*-B), including English and Mathematics.
       </p>
 
@@ -175,10 +172,33 @@
   document.querySelector("#h_kiosk").innerHTML = "2013: Serveuse et caissière (Aston Villa FC)";
   document.querySelector("#h_volunteering").remove();
   document.querySelector("#h_st_giles").innerHTML = "2011-2014: Employée bénévole dans un magasin de charité (St Giles Hospice)";
+  document.querySelector("#st_giles").innerHTML = "Trier les dons et organiser l'agencement du magasin. \
+  <br> \
+  Travailler à la caisse.";
 
+  document.querySelector("#experience_university").innerHTML = "2015-Présent: Entraîneuse et juge qualifiée bénévole (Trampoline Club) \
+  <br> \
+  2016: Conseillère d'une étudiante des langues étrangères \
+  <br> 2016-17: Représantant de l'institution des Langues et Cultures" ;
 
   document.querySelector("#h1_university").innerHTML = "2015-Présent: Licence langues étrangères";
   document.querySelector("#h2_university").innerHTML = "(Modern Languages BA, University of Warwick)";
+  document.querySelector("#education_university").innerHTML = "Français, Espagnol, Allemand Débutant \
+  <br> \
+  Résultat de la première année (63%)";
+
+  document.querySelector("#grades").innerHTML = "<h4>A-level:</h4> \
+  <ul> \
+    <li>French (A)</li> \
+    <li>Spanish (A)</li> \
+    <li>Psychology (B)</li> \
+  </ul> \
+  <h4>AS-level:</h4> \
+  <ul> \
+    <li>Mathematics (B)</li> \
+  </ul> \
+  <h4>GCSE:</h4> \
+  12 Subjects (A*-B), including English and Mathematics.";
 
   document.querySelector("#h_interests").innerHTML = "Centres d'intérêt";
 };
