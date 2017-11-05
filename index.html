@@ -23,8 +23,6 @@
       <p id="contactdeets">
         Telephone: +44 7503772058
         <br>Email: c.cutler@warwick.ac.uk
-        <br>Address: 60 Pilkington Avenue,
-        <br>Sutton Coldfield, B72 1LG
       </p>
     </div>
 
@@ -93,20 +91,23 @@
       <h4>2013-2015: Sutton Coldfield Grammar School</h4>
 
 
-      <p id="A-level">
+      <p>
           <h4>A-level:</h4>
           <ul>
-            <li>French (A)</li>
-            <li>Spanish (A)</li>
-            <li>Psychology (B)</li>
+            <li id="French">French (A)</li>
+            <li id="spanish">Spanish (A)</li>
+            <li id="german">Psychology (B)</li>
           </ul>
       </p>
 
+      <p>
           <h4>AS-level:</h4>
           <ul>
             <li>Mathematics (B)</li>
           </ul>
+      </p>
 
+      <p id="GCSE">
           <h4>GCSE:</h4>
           12 Subjects (A*-B), including English and Mathematics.
       </p>
@@ -151,11 +152,7 @@
 <script>document.querySelector("#french").onclick = function(){
   document.querySelector("#contactdeets").innerHTML = "Téléphone: +44 7503772058 \
       <br> \
-      Email: c.cutler@warwick.ac.uk \
-      <br> \
-      Adresse: 60 Pilkington Avenue, \
-      <br> \
-      Sutton Coldfield, B72 1LG";
+      Email: c.cutler@warwick.ac.uk";
 
   document.querySelector("#h_professionalexperience").innerHTML = "Expérience professionnelle";
   document.querySelector("#h_aupair").innerHTML = "2016: Au pair (Berga, Espagne)";
@@ -180,7 +177,7 @@
   document.querySelector("#experience_university").innerHTML = "2015-Présent: Entraîneuse et juge qualifiée bénévole (Trampoline Club) \
   <br> \
   2016: Conseillère d'une étudiante des langues étrangères \
-  <br> 2016-17: Représantant de l'institution des Langues et Cultures" ;
+  <br> 2016-17: Représantante de l'institution des Langues et Cultures" ;
 
   document.querySelector("#h1_university").innerHTML = "2015-Présent: Licence langues étrangères";
   document.querySelector("#h2_university").innerHTML = "(Modern Languages BA, University of Warwick)";
@@ -188,14 +185,9 @@
   <br> \
   Résultat de la première année (63%)";
 
-  document.querySelector("#grades").innerHTML = "<h4>A-level:</h4> \
-  <ul> \
-    <li>Français (A)</li> \
-    <li>Espagnol (A)</li> \
-    <li>Psychologie (B)</li> \
-  </ul>";
-
-  document.querySelector("#h_interests").innerHTML = "Centres d'intérêt";
+  document.querySelector("#French").innerHTML = "Français";
+  document.querySelector("#spanish").innerHTML = "Espagnol";
+  document.querySelector("#german").innerHTML = "Allemand";
 };
   </script>
 
