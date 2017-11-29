@@ -1,30 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Lora" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <meta charset"UTF-8>
-  <meta http-equiv="Content-type" content="text/html;
-  charset=UTF-8">
-  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+  <meta http-equiv="Content-type" content="text/html" charset="UTF-8">
 </head>
 
 <body>
-  <ul  class="navbar">
+  <!-- <ul  class="navbar">
     <li><a class="active" href= "index.html">Home</a></li>
     <li><a href="contact.html">News</a></li>
-  </ul>
+  </ul> -->
   <button id="french"></button>
-  <div class="container">
 
-
+  <div class="hero">
     <h1 id="h_charlottecutler">Charlotte Cutler</h1>
-    <div class="contact">
-      <p id="contactdeets">
-        Telephone: +44 7503772058
-        <br>Email: c.cutler@warwick.ac.uk
-      </p>
+    <div id="contactdeets">
+      <p><i class="fa fa-phone" aria-hidden="true"></i> +44 7503772058</p>
+
+      <p><i class="fa fa-envelope" aria-hidden="true"></i> c.cutler@warwick.ac.uk</p>
     </div>
+  </div>
+
+  <div class="container">
 
   <div class="content">
     <div class="column1">
@@ -130,30 +128,20 @@
 
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
-/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
 <div id="mc_embed_signup">
 <form action="//github.us16.list-manage.com/subscribe/post?u=18ddf030fae1b6d72836c6e7a&amp;id=c719acdbbf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-  <div id="mc_embed_signup_scroll">
-<label for="mce-EMAIL">Contact me</label>
-<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+
+<label id="mc-title" for="mce-EMAIL">Contact me</label>
+<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
   <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_18ddf030fae1b6d72836c6e7a_c719acdbbf" tabindex="-1" value=""></div>
-  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-  </div>
+  <div aria-hidden="true" style="display: none;"><input type="text" name="b_18ddf030fae1b6d72836c6e7a_c719acdbbf" tabindex="-1" value=""></div>
+  <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button">
 </form>
 </div>
 
 <!--End mc_embed_signup-->
 
 <script>document.querySelector("#french").onclick = function(){
-  document.querySelector("#contactdeets").innerHTML = "Téléphone: +44 7503772058 \
-      <br> \
-      Email: c.cutler@warwick.ac.uk";
-
   document.querySelector("#h_professionalexperience").innerHTML = "Expérience professionnelle";
   document.querySelector("#h_aupair").innerHTML = "2016: Au pair (Berga, Espagne)";
   document.querySelector("#aupair").innerHTML = "Enseigner la grammaire anglaise aux enfants &acirc;gés de 11 et 12 ans.\
@@ -190,10 +178,6 @@
   document.querySelector("#german").innerHTML = "Allemand";
 };
   </script>
-
-
-
-
-
+<script src="https://use.fontawesome.com/c9c73da7c9.js"></script>
 </body>
 </html>
