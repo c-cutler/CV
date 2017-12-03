@@ -8,7 +8,7 @@
 
 <body>
   <button id="french"></button>
-  <button id="english"></button>
+  <button id="english" onclick="goBack()"></button>
   <div class="hero">
     <h1 id="h_charlottecutler">Charlotte Cutler</h1>
     <div id="contactdeets">
@@ -199,13 +199,14 @@
   Taekwondo (Ceinture à bande bleue) \
   <br> \
   Piano (Niveau 5)";
-  };
+  }
   </script>
 <script src="https://use.fontawesome.com/c9c73da7c9.js"></script>
 
-<script>("#english").onclick = function goBack() {
-  window.history.go(https://c-cutler.github.io/CV/);
-};
+<script>
+  function goBack() {
+    window.history.go(https://c-cutler.github.io/CV/);
+}
 </script>
 </body>
 </html>
