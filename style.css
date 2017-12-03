@@ -79,6 +79,23 @@ h1, h2, h3, h4, h5, h6 {
   width: 30px;
 }
 
+#english {
+  position: absolute;
+  right:50px;
+  top: 10px;
+  background: linear-gradient(
+  to right,
+  #000000 0,
+  #000000 10px,
+  #FFFFFF 10px,
+  #FFFFFF 20px,
+  #0000FF 20px,
+  #0000FF 30px
+  );
+  border-width: 0;
+  height: 20px;
+  width: 30px;
+}
 .navbar {
   list-style-type: none;
   margin: 0;
