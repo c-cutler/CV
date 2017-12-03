@@ -105,33 +105,31 @@
           <ul>
             <li id="French">French (A)</li>
             <li id="spanish">Spanish (A)</li>
-            <li id="german">Psychology (B)</li>
+            <li id="psychology">Psychology (B)</li>
           </ul>
       </p>
 
       <p>
           <h4>AS-level:</h4>
           <ul>
-            <li>Mathematics (B)</li>
+            <li id="maths">Mathematics (B)</li>
           </ul>
       </p>
 
+      <h4>GCSE:</h4>
       <p id="GCSE">
-          <h4>GCSE:</h4>
           12 Subjects (A*-B), including English and Mathematics.
       </p>
 
 
         <h2 id="h_interests">Interests</h2>
-        <div class="interests">
-          <p>
+          <p id="interests">
             Trampoline Gymnast (SUTL 5 Competitor)
             <br>
             Taekwondo (Blue Stripe Belt)
             <br>
             Piano (Grade 5)
           </p>
-        </div>
       </div>
     </div>
   </div>
@@ -154,6 +152,14 @@
 
 <script>document.querySelector("#french").onclick = function(){
   document.querySelector("#h_professionalexperience").innerHTML = "Expérience professionnelle";
+  document.querySelector("#h_Simmons").innerHTML = "Jul - Dec 2017: Paris Office Junior (Département de Facilités, Simmons & Simmons Paris)";
+  document.querySelector("#Simmons").innerHTML = "Accuellir les clients et assurer que leurs besoins sont satisfaits. \
+  <br> \
+  Mettre en place l'équipement audiovisuel. \
+  <br> \
+  Distribuer le courrier interne et externe. \
+  <br> \
+  Classer, scanner et imprimer des documents pour les avocats, selon les besoins des individus.";
   document.querySelector("#h_aupair").innerHTML = "2016: Au pair (Berga, Espagne)";
   document.querySelector("#aupair").innerHTML = "Enseigner la grammaire anglaise aux enfants &acirc;gés de 11 et 12 ans.\
   <br> \
@@ -184,9 +190,19 @@
   <br> \
   Résultat de la première année (63%)";
 
-  document.querySelector("#French").innerHTML = "Français";
-  document.querySelector("#spanish").innerHTML = "Espagnol";
-  document.querySelector("#german").innerHTML = "Allemand";
+
+  document.querySelector("#French").innerHTML = "Le Français (A)";
+  document.querySelector("#spanish").innerHTML = "L'Espagnol (A)";
+  document.querySelector("#psychology").innerHTML = "La Psychologie (B)";
+  document.querySelector("#maths").innerHTML = "Les Mathématiques (B)";
+  document.querySelector("#GCSE").innerHTML = "12 Matières (A*-B), y compris les mathématiques et l'anglais";
+
+  document.querySelector("#h_interests").innerHTML = "Intérêts";
+  document.querySelector("#interests").innerHTML = "Gymnaste de Trampoline (SUTL 5 Participante) \
+  <br> \
+  Taekwondo (Ceinture à bande bleue) \
+  <br> \
+  Piano (Niveau 5)";
 };
   </script>
 <script src="https://use.fontawesome.com/c9c73da7c9.js"></script>
