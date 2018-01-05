@@ -41,8 +41,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px;
 }
 
-#mc_embed_signup {
+#mc {
   background-color: #372549;
+  color: #FFFFFF;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -79,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 30px;
 }
 
-#english { 
+#english {
   position: absolute;
   left:16px;
   top: 10px;
