@@ -92,15 +92,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #english {
+  box-shadow: 0 1px 3px rgba(255,255,255,0.12), 0 1px 2px rgba(255,255,255,0.24);
+  transition: box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
   position: absolute;
   left:16px;
   top: 10px;
-  background: solid(
-    #000000
-  );
+  background-color: #b9a1c4;
   border-width: 0;
   height: 20px;
   width: 60px;
+}
+
+#english:active, #english:focus {
+  outline: none;
+}
+#english:hover {
+  outline: none;
+  box-shadow: 0 14px 28px rgba(255,255,255,0.25), 0 10px 10px rgba(255,255,255,0.22);
 }
 .navbar {
   list-style-type: none;
