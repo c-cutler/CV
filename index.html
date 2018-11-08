@@ -26,6 +26,14 @@
       <h2 id="h_professionalexperience">Professional Experience</h2>
 
       <div class="experience">
+        <h3 id="h_developer">Jul - Present: Web Developer (IT Services, Warwick University)</h3>
+          <p id="developer">
+            Web-app development to book seats in library.
+            <br/>
+            Developing in React with Redux.
+            <br/>
+            Experience working in an Agile team.
+          </p>
         <h3 id="h_Simmons">Jul - Dec 2017: Paris office Junior (Facilities Department, Simmons & Simmons Paris)</h3>
           <p id="Simmons">
             Setting up AV equipment.
@@ -36,9 +44,6 @@
         <h3 id="h_aupair">2016: Au pair (Berga, Spain)</h3>
           <p id="aupair">
             Teaching English grammar to the children ages 11 and 12.
-            <br/>
-            Organising activities with the parents and visiting places of cultural
-               interest.
           </p>
         <h3 id="h_wilko">2014-2015: Shop Assistant (Wilko)</h3>
           <p id="wilko">
@@ -65,7 +70,7 @@
 
       <h3>University of Warwick</h3>
         <p id="experience_university">
-          2015-Current: Qualified Coach and Judge (Trampoline Club)
+          2016-2017: Qualified Coach and Judge (Trampoline Club)
           <br>French student mentor 2016
           <br>School of Modern Languages and Cultures Ambassador 2016-17
         </p>
@@ -74,7 +79,7 @@
     <div>
       <h2 id="h_skills">Skills</h2>
         <p id="skills">
-          Basic Programming: Java, HTML, CSS
+          Programming: Java, HTML, CSS, React, Mocha
         </p>
     </div>
 
@@ -94,7 +99,11 @@
         <br>
         First Year (63%)
         <br>
-        Third Year (Current - Term 1 Work placement, Paris. Term 2 University of Málaga (UMA))
+        Second Year (61%)
+        <br>
+        Third Year (Term 1 Work placement, Paris. Term 2 University of Málaga (UMA))
+        <br>
+        Current: Final Year
       </p>
 
       <h4 id="h_modules">Notable Modules</h4>
@@ -113,8 +122,8 @@
           <h4>A-level:</h4>
           <ul>
             <li id="French">French (A)</li>
-            <li id="spanish">Spanish (A)</li>
-            <li id="psychology">Psychology (B)</li>
+            <li id="Spanish">Spanish (A)</li>
+            <li id="Psychology">Psychology (B)</li>
           </ul>
       </p>
 
@@ -146,6 +155,13 @@
 
 <script>document.querySelector("#french").onclick = function french(){
   document.querySelector("#h_professionalexperience").innerHTML = "Expérience professionnelle";
+  document.querySelector("#developer").innerHTML = "IT Services, Warwick University \
+  <br> \
+  Développement d'une application web. \
+  <br> \
+  Développement en React avec Redux. \
+  <br> \
+  Expérience dans une équipe Agile";
   document.querySelector("#h_Simmons").innerHTML = "Jul - Dec 2017: Paris Office Junior (Département de Facilités, Simmons & Simmons Paris)";
   document.querySelector("#Simmons").innerHTML = "Accuellir les clients et assurer que leurs besoins sont satisfaits. \
   <br> \
@@ -153,9 +169,7 @@
   <br> \
   Compléter des tâches pour les clients et les avocats, selon les besoins des individus.";
   document.querySelector("#h_aupair").innerHTML = "2016: Au pair (Berga, Espagne)";
-  document.querySelector("#aupair").innerHTML = "Enseigner la grammaire anglaise aux enfants &acirc;gés de 11 et 12 ans.\
-  <br> \
-  Organiser les activités quotidiennes avec les parents et visiter des lieux d'intér&ecirc;t culturel.";
+  document.querySelector("#aupair").innerHTML = "Enseigner la grammaire anglaise aux enfants &acirc;gés de 11 et 12 ans.";
 
   document.querySelector("#h_wilko").innerHTML = "Caissière, (Wilko)";
   document.querySelector("#wilko").innerHTML = "Accueillir les clients. \
@@ -171,13 +185,13 @@
   <br> \
   Travailler à la caisse.";
 
-  document.querySelector("#experience_university").innerHTML = "2015-Présent: Entraîneuse et juge qualifiée bénévole (Trampoline Club) \
+  document.querySelector("#experience_university").innerHTML = "2016-2017: Entraîneuse et juge qualifiée bénévole (Trampoline Club) \
   <br> \
   2016: Conseillère d'une étudiante des langues étrangères \
   <br> 2016-17: Représantante de l'institution des Langues et Cultures" ;
 
   document.querySelector("#h_skills").innerHTML = "Compétences";
-  document.querySelector("#skills").innerHTML = "La programmation élémentaire: Java, HTML, CSS"
+  document.querySelector("#skills").innerHTML = "La programmation: Java, HTML, CSS, React, Mocha"
 
 
   document.querySelector("#h1_university").innerHTML = "2015-Présent: Licence langues étrangères";
@@ -188,7 +202,7 @@
   <br> \
   Résultat de la deuxième année (61%) \
   <br> \
-  Troisième année (En cours - premier semestre en stage en entreprise, Paris.  deuxième semestre à l'université de Málaga (UMA)) ";
+  Troisième année (Premier semestre en stage en entreprise, Paris.  Deuxième semestre à l'université de Málaga (UMA)) ";
 
   document.querySelector("#h_modules").innerHTML = "Modules Notables";
   document.querySelector("#modules").innerHTML = "La Programmation Orientée Objet (Java), UMA \
