@@ -2,17 +2,15 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Lora" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="snake.css">
     <meta charset="UTF-8" />
     <title>Add React in One Minute</title>
   </head>
   <body>
 
-    <h2>Add React in One Minute</h2>
-    <p>This page demonstrates using React with no build tooling.</p>
-    <p>React is loaded as a script tag.</p>
-
     <!-- We will put our React component inside this div. -->
-    <div id="like_button_container"></div>
+    <div id="snake" style="display: flex"></div>
 
     <!-- Load React. -->
     <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
@@ -20,7 +18,7 @@
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
 
     <!-- Load our React component. -->
-    <script src="snake.js"></script>
+    <script src="dist/snake.js"></script>
 
   </body>
 </html>
