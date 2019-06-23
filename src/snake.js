@@ -15,7 +15,7 @@ class Snake extends React.Component {
   }
 
   componentDidMount() {
-    this.changeSquareColour(1, 0);
+    this.changeSquareColour(15, 25);
   }
 
   createRow(row) {
